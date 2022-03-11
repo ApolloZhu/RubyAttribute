@@ -9,8 +9,7 @@ struct ContentView: View {
             .set(\.attributedText,
                   to: try! NSAttributedString(AttributedString(localized:
 """
-The ^[猫](CTRubyAnnotation: {before: 'ねこ', interCharacter: 'ㄇㄠ'}) \
-is seeking adoption.
+What is the ^[猫](CTRubyAnnotation: {before: 'ねこ', interCharacter: 'ㄇㄠ', after: 'cat', inline: '🐾'}) doing here?
 """, including: \.coreText), including: \.coreText))
             .set(\.textAlignment, to: .center)
             .set(\.font, to: .preferredFont(forTextStyle: .title1))
