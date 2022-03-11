@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuikitview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AvdLee/SwiftUIKitView.git",
+      "state" : {
+        "revision" : "296bf2ccb97efed44dea76622f4a10359ce22f6a",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}
